@@ -3,3 +3,11 @@ body {
     color: $white;
     margin: 3px;
 }
+
+.pagos__servicios {
+    border: 1px solid $aqua;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
