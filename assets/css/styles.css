@@ -9989,7 +9989,7 @@ input:checked ~ .navigation__container {
 }
 
 .btn {
-  padding: 0.375rem 1.75rem;
+  padding: 2px 20px;
   border-radius: 2.25rem;
 }
 
@@ -9997,10 +9997,6 @@ body {
   background-color: #023859;
   color: #fff;
   margin: 3px;
-}
-
-a body {
-  color: #fff;
 }
 
 /*# sourceMappingURL=styles.css.map */
