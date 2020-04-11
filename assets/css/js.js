@@ -5,9 +5,8 @@ $('.boton__nuevo').on('click', funtion(e),
         <li class="pagos__texto">Ecogas</li>
         <li class="pagos__texto">$600</li>
         <li>
-            <button class="pagos__boton">Pagar</button>
+            <button type="button" class="btn btn-info btn-sm"><a href="Comprobante.html">Pagar</a></button>
         </li>
-
-    </div>);
-
-
+    </div>
+    )
+);
