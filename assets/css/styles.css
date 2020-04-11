@@ -9876,8 +9876,12 @@ h3 {
   }
 }
 /**
- * Basic typography style for copy text
+ * Navbar
  */
+.pagos__titulo {
+  font-size: 18px;
+}
+
 .navigation {
   position: relative;
 }
@@ -9964,11 +9968,29 @@ input:checked ~ .navigation__container {
     font-weight: 400;
   }
 }
+.footer {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+}
+
+.pagos__servicios {
+  border: 1px solid #4BC3F2;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.boton__opciones {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
 body {
   background-color: #023859;
   color: #fff;
-  max-width: 450px;
-  min-width: 360px;
+  margin: 3px;
 }
 
 /*# sourceMappingURL=styles.css.map */
