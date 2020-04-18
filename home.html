@@ -13,7 +13,7 @@ UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="a
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body>
+<body class="bg-dark text-white">
 
     <nav class="navigation">
         <div class="navigation__logo">
@@ -34,51 +34,52 @@ UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="a
         </div>
     </nav>
 
-    <section class="pagos">
+    <section class="vencimientos">
 
-        <h2 class="pagos__titulo pt-3 px-2">Próximos vencimientos</h2>
-        <div class="pagos__servicios py-2 my-2">
+        <h6 class="pagos__titulo p-2">Revisá tus próximos vencimientos</h6>
+
+        <article class="pagos__servicios d-flex justify-content-between p-2 my-2">
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                 <label class="form-check-label" for="defaultCheck1">
                 </label>
             </div>
-            <li class="pagos__texto">16/3</li>
-            <li class="pagos__texto">EPEC</li>
-            <li class="pagos__texto">$800</li>
-            <li>
-                <button type="button" class="btn btn-info btn-sm"><a href="#">Pagar</a></button>
-            </li>
+            <div class="pagos__texto">5/3</div>
+            <div class="pagos__texto">EPEC</div>
+            <div class="pagos__texto">$800</div>
+            <div>
+                <a type="button" class="btn btn-info btn-sm" href="#">Pagar</a>
+            </div>
+        </article>
 
-        </div>
-
-        <div class="pagos__servicios py-2 my-2">
+        <article class="pagos__servicios d-flex justify-content-between p-2 my-2">
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                 <label class="form-check-label" for="defaultCheck1">
                 </label>
             </div>
-            <li class="pagos__texto">16/3</li>
-            <li class="pagos__texto">Ecogas</li>
-            <li class="pagos__texto">$600</li>
-            <li>
-                <button type="button" class="btn btn-info btn-sm"><a href="Comprobante.html">Pagar</a></button>
-            </li>
+            <div class="pagos__texto">16/3</div>
+            <div class="pagos__texto">Ecogas</div>
+            <div class="pagos__texto">$600</div>
+            <div>
+                <a type="button" class="btn btn-info btn-sm" href="comprobante.html">Pagar</a>
+            </div>
+        </article>
 
+    </section>
+
+    <section class="pagos d-flex justify-content-between p-2 m-3">
+
+        <div class="boton__todos">
+            <a type="button" class="btn btn-info" href="#">Pagar todos</a>
         </div>
-
-        <div class="boton__opciones my-3">
-            <li>
-                <button type="button" class="btn btn-info"><a href="#">Pagar todos</a></button>
-            </li>
-            <li>
-                <button type="button" class="btn btn-info boton__nuevo"><a href="#">Nuevo pago</a></button>
-            </li>
+        <div class="boton__nuevo">
+            <a type="button" class="btn btn-info" href="#">Nuevo pago</a>
         </div>
 
     </section>
 
-    <section class="publicidad pt-3 px-2">
+    <section class="publicidad py-3 px-2">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">

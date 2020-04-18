@@ -1,16 +1,15 @@
 .navigation {
     position: relative;
     }
-
   
     .navigation__logo {
         position: absolute;
-        top: .9em;
-        left: 2.5em;
+        top: .5em;
+        left: 1em;
         }
 
         img {
-width: 60%;
+width: 50%;
         }
 
         .collapsible {
@@ -19,13 +18,16 @@ width: 60%;
             display: block;
             padding-top: .5em;
             padding-bottom: .5em;
-            padding-right: 1.5em;
+            padding-right: 1em;
+            padding-left: 1em;
             font-size: 1.8rem;
+            justify-content: center;
             }
         }
 
         #menu {
             display: none;
+           
             }
 
             input:checked ~ .navigation__container {
@@ -58,7 +60,7 @@ width: 60%;
                         }
                     }
                 }
-                @media only screen and (min-width: 992px) {
+                @media only screen and (min-width: 2000px) {
                     .navigation__logo {
                         top:1em;
                         left: 3em;

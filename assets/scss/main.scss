@@ -19,10 +19,8 @@
 // 4. Layout-related sections
 @import
 'layout/navbar',
-'layout/footer',
-'layout/pagos',
-'layout/publicidad';
-  
+'layout/footer';
+
 
 // 5. Components
 @import
@@ -30,7 +28,8 @@
 
 // 6. Page-specific styles
 @import
-  'pages/home';
+  'pages/home',
+  'pages/comprobante';
 
 // 7. Themes
 @import

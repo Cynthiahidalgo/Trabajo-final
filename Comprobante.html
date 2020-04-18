@@ -13,7 +13,7 @@ UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="a
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body>
+<body class="bg-dark text-white">
 
     <nav class="navigation">
         <div class="navigation__logo">
@@ -34,30 +34,90 @@ UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="a
         </div>
     </nav>
 
-    <section class="comprobante">
+    <article class="conteiner bg-light text-dark m-3 rounded-lg">
 
-        <div class="comprobante__ecogas p-2 m-3">
-            <i class="fas fa-burn fa-3x p-3"></i>
-            <ul class="comprobante__list p-3">
-                <li class="comprobante__item p-1">Detalle ................. Ecogas</li>
-                <li class="comprobante__item p-1">Vencimiento ............. 16/3</li>
-                <li class="comprobante__item p-1">Monto ................... $600</li>
-                <li class="comprobante__item p-1">Método de pago</li>
-            </ul>
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Elegir
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <button class="dropdown-item" type="button">Efectivo</button>
-                    <button class="dropdown-item" type="button">Tarjeta de crédito</button>
-                    <button class="dropdown-item" type="button">Mercado pago</button>
+        <i class="fas fa-burn fa-3x p-3"></i>
+
+        <table class="table table-hover table-sm">
+
+            <tbody>
+                <tr>
+                    <th class="p-2" scope="row">Detalle</th>
+                    <td class="p-2">Ecogas</td>
+
+                </tr>
+                <tr>
+                    <th class="p-2" scope="row">Comprobante</th>
+                    <td class="p-2">000000013057</td>
+
+                </tr>
+                <tr>
+                    <th class="p-2" scope="row">Vecimiento</th>
+                    <td class="p-2">16/3</td>
+
+                </tr>
+                <tr>
+                    <th class="p-2" scope="row">Importe</th>
+                    <td class="p-2">$600</td>
+
+                </tr>
+                <tr>
+                    <th class="p-2" scope="row">Método de pago
+                        <div class="dropdown">
+                            <button class="btn btn-black dropdown-toggle pb-0" type="button" id="dropdownMenu2"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Elegir
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <button class="dropdown-item" type="button">Tarjeta de crédito xxxx-2458</button>
+                                <button class="dropdown-item" type="button">Tarjeta de débito xxxx-6003</button>
+                                <button class="dropdown-item" type="button">Mercado Pago</button>
+                            </div>
+                        </div>
+                    </th>
+                    <td></td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </article>
+
+    <section class="pagos d-flex justify-content-between flex-column p-3">
+
+        <a type="button" href="#procesando" data-toggle="modal"
+            class="btn btn-info btn-sm align-items-center m-2">Pagar</a>
+
+        <a type="button" class="btn btn-info btn-sm align-items-center m-2" href="home.html">Cancelar</a>
+
+
+        <div class="modal fade modal-sm" id="procesando" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-dark text-center">
+                        <p>Procesando su pago</p>
+                        <div class="spinner-border" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
+
+
+
+
     </section>
+
+
 
 
 
@@ -71,5 +131,18 @@ UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="a
         <i class="fab fa-twitter fa-2x px-3"><a href="#"></a></i>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
+    <!-- MI SCRIPT -->
+
+    <script src="assets/js/script.js"></script>
 </body>
+
+</html>
