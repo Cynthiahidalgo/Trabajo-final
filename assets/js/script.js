@@ -18,7 +18,7 @@ $(document).ready(function () {
             </div>
   </article>
 `;
-                $('.vencimientos').append(DuplicarPago);
+                $('.pagos').append(DuplicarPago);
             },
         );
 

@@ -1,7 +1,13 @@
+
 body {
-    max-width: 320px;
-    margin: 3px;
-    
+max-width: 375px;
+width: 100%;
+margin: 0 auto !important;
+}
+
+main {
+    background-color: $petroleo;
+      
 }
 
 .pagos__servicios {
